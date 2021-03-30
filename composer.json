@@ -1,0 +1,17 @@
+{
+    "name": "sbecker11/hello-composer",
+    "description": "A simple hello world composer package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shawn Becker",
+            "email": "sbecker11@me.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"sbecker11\\HelloWorld\\": "src/"}
+    },
+    "require": {}
+}
