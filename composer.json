@@ -13,5 +13,12 @@
     "autoload": {
         "psr-4": {"sbecker11\\HelloWorld\\": "src/"}
     },
-    "require": {}
+    "require": {},
+    "repositories": {
+        "packagist.org": false,
+        "private-packagist": {
+            "type": "composer",
+            "url": "https://repo.packagist.com/my-co/"
+        }
+    }
 }
